@@ -1,0 +1,55 @@
+#header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 5vh;
+  border-bottom: 1px solid black;
+  width: 94vw;
+  margin-left: 3vw;
+}
+
+#header:nth-child() {
+  display: inline;
+}
+
+#header a {
+  margin-left: 1.5vw;
+}
+
+#header #header-right {
+  margin-right: auto;
+  display: flex;
+  height: 5vh;
+  flex-direction: row;
+  align-items: center;
+}
+
+#header .header-social {
+  width: 1.2vw;
+  height: 1.2vw;
+  margin-left: 1vw;
+}
+
+.FeaturedPost {
+  color: white;
+  width: 45vw;
+  height: 50vh;
+  background-color: red;
+  position: absolute;
+  top: 10vh;
+  left: 3vw;
+  border-radius: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: left;
+  background-image: url(../../public/tempback.png);
+}
+
+.FeaturedPostText {
+  width: 90%;
+}
+
+#body {
+  display: flex;
+}
