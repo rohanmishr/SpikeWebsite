@@ -1,4 +1,4 @@
-import twitter from '../public/twitter.png'
+import twitter from './images/twitter.png'
 
 function Header() {
     return (
