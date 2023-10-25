@@ -11,17 +11,19 @@ function Body() {
                     </div>
                 </div>
             </div>
-            <div className="OtherPosts">
-                <h3>Post Title</h3>
-            </div>
-            <div className="OtherPosts">
-                <h3>Post Title</h3>
-            </div>
-            <div className="OtherPosts">
-                <h3>Post Title</h3>
-            </div>
-            <div className="OtherPosts">
-                <h3>Post Title</h3>
+            <div id="PostContainer">
+                <div className="OtherPost">
+                    <div className="OtherPostImg">
+
+                    </div>
+                    <div className="OtherPostText">
+                        <h1>Ipsum</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et...</p>
+                        <button className="OtherPostButton">
+                            Read More
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     )

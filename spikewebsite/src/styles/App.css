@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 5vh;
+  height: 10vh;
   border-bottom: 1px solid black;
   width: 94vw;
   margin-left: 3vw;
@@ -32,11 +32,11 @@
 
 .FeaturedPost {
   color: white;
-  width: 45vw;
-  height: 50vh;
+  width: 55vw;
+  height: 70vh;
   background-color: red;
   position: absolute;
-  top: 10vh;
+  top: 15vh;
   left: 3vw;
   border-radius: 3vh;
   display: flex;
@@ -49,7 +49,7 @@
 .FeaturedPostBlur {
   width: 100%;
   height: 100%;
-  backdrop-filter: brightness(90%);
+  backdrop-filter: brightness(75%);
   border-radius: 3vw;
 }
 
